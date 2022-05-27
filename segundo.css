@@ -5,13 +5,17 @@
     background-color: red;
     width: 80;
     height: 80;
+    position: absolute;
+    top: 0ch;
+    left: 0ch;
 }
 #segundo_quadro {
     background-color: green;
     width: 80;
     height: 80;
     position: absolute;
-    top: 20cm;
+    bottom: 0ch;
+    left: 0ch;
     
 }
 #terceiro_quadro {
@@ -19,7 +23,7 @@
     width: 80;
     height: 80;
     position: absolute;
-    left: 20cm;
+    right: 0ch;
     top: 0cm;
 }
 #quarto_quadro {
@@ -27,6 +31,6 @@
     width: 80;
     height: 80;
     position: absolute;
-    top: 20cm;
-    left: 20cm;
+    bottom: 0ch;
+    right: 0ch;
 }
