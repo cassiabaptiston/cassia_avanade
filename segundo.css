@@ -1,0 +1,32 @@
+.fundo{
+    background-color: aliceblue;
+}
+#primeiro_quadro {
+    background-color: red;
+    width: 80;
+    height: 80;
+}
+#segundo_quadro {
+    background-color: green;
+    width: 80;
+    height: 80;
+    position: absolute;
+    top: 20cm;
+    
+}
+#terceiro_quadro {
+    background-color: yellow;
+    width: 80;
+    height: 80;
+    position: absolute;
+    left: 20cm;
+    top: 0cm;
+}
+#quarto_quadro {
+    background-color: blue;
+    width: 80;
+    height: 80;
+    position: absolute;
+    top: 20cm;
+    left: 20cm;
+}
