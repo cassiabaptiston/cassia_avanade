@@ -15,9 +15,8 @@ function name2(a,b){
 }
 
 //exercicio 4
-   const a = "Cassia", b = "André",c = "Felipe", d = "Nilce", e = "Moisés", f = "Erick";
-undefined
 function alunos() {
+    const a = "Cassia", b = "André",c = "Felipe", d = "Nilce", e = "Moisés", f = "Erick";
     return [a,b,c,d,e,f];
 }
 
