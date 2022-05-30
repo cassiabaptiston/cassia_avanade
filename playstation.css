@@ -1,0 +1,30 @@
+.fundo{
+    margin: 0%;
+    position: relative;
+    background-image: url(https://www.gematsu.com/wp-content/uploads/2016/01/SIE-Announce_01-26-16_Top.jpg);
+    background-size: 60% 80%;
+    background-position-x: 120%;
+    background-position-y: 50%;
+    }
+    .cadastro {
+        position: absolute;
+        height: 50px;
+        width: 400px;
+        border-radius: 0% 0% 15% 15%;
+        margin-top: 250px;
+        background-color: white;
+    }
+    
+#fundoplay {
+    background-image: -webkit-linear-gradient(top bottom #c6d3f7 80% white 20%);
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    border-radius: 12% 12% 0% 0%;
+    margin-top: 50px;
+    background-color: #c6d3f7; 
+    
+}
+#playstation {
+    left: -40ch;
+}
