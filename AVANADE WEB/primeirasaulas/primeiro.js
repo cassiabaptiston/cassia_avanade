@@ -34,4 +34,5 @@ exer()
 arr.push("Chagas")
 2
 exer()
+ versao01
 'Cassia,ChagasBaptiston'
