@@ -1,0 +1,11 @@
+{
+  "name": "primeiro",
+  "version": "1.0.0",
+  "description": "primeiro",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Cassia",
+  "license": "ISC"
+}
