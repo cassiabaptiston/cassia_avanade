@@ -1,0 +1,23 @@
+{
+  "name": "exercicio",
+  "version": "1.0.0",
+  "description": "exercicionode",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cassiabaptiston/cassia_avanade.git"
+  },
+  "author": "Cassia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cassiabaptiston/cassia_avanade/issues"
+  },
+  "homepage": "https://github.com/cassiabaptiston/cassia_avanade#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1"
+  }
+}
