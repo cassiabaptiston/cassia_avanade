@@ -7,24 +7,25 @@ namespace hello
     {
         static void Main(string[] args)
         {
-            Program.escrever();
+
+            //Program.escrever();
             //   Program.escreverString("xxxxx");
-            Program.soma(4, 5);
-            Program.escreveODigitado();
+            //Program.soma(4, 5);
+            //Program.escreveODigitado();
         }
 
-        static void escrever()
-        {
-            Console.WriteLine("Hello World!");
-            string nome = "Cassia";
-            int idade = 32;
-            double altura = 1.61;
-            bool casado = true;
-            Console.WriteLine(nome);
-            Console.WriteLine(idade);
-            Console.WriteLine(altura);
-            Console.WriteLine(casado);
-        }
+        //static void escrever()
+        //{
+        //    Console.WriteLine("Hello World!");
+        //   string nome = "Cassia";
+        //    int idade = 32;
+        //    double altura = 1.61;
+        //    bool casado = true;
+        //    Console.WriteLine(nome);
+        //    Console.WriteLine(idade);
+        //    Console.WriteLine(altura);
+        //    Console.WriteLine(casado);
+        //}
 
         // static void escreverString(string s)
 
@@ -36,21 +37,21 @@ namespace hello
 
 
 
-        static void soma(int a, int b)
-        {
-            int soma = a + b;
-            Console.WriteLine(soma);
-        }
-        static void escreveODigitado()
-        {
-            Console.WriteLine("Digite um número");
-            int n1 = int.Parse(Console.ReadLine());
-            Console.WriteLine("Digite um número");
-            int n2 = int.Parse(Console.ReadLine());
-            int produto = n1*n2;
-            Console.WriteLine("Digite um número para somar ao produto da multiplicação anterior");
-            int n3 = int.Parse(Console.ReadLine());
-            Console.WriteLine("Seu resultado é " + (produto + n3));
+        //static void soma(int a, int b)
+        //{
+        //    int soma = a + b;
+        //    Console.WriteLine(soma);
+        //}
+        //static void escreveODigitado()
+        //{
+        //    Console.WriteLine("Digite um número");
+        //    int n1 = int.Parse(Console.ReadLine());
+        //    Console.WriteLine("Digite um número");
+        //    int n2 = int.Parse(Console.ReadLine());
+        //    int produto = n1*n2;
+        //    Console.WriteLine("Digite um número para somar ao produto da multiplicação anterior");
+        //    int n3 = int.Parse(Console.ReadLine());
+        //    Console.WriteLine("Seu resultado é " + (produto + n3));
 
             //1 - mudar a função soma para retornar o resultado.
             //2 - receber do usuário os valores a serem somados
@@ -59,5 +60,5 @@ namespace hello
         }
 
     }
-}
+//}
 
