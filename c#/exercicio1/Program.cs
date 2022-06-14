@@ -8,6 +8,11 @@ namespace exercicio1
 
         public static void Main(string[] args)
         {
+            Console.WriteLine(Program.animais());
+        }
+        static void pessoas()
+
+        {
             Pessoa pessoa1 = new Pessoa();
             Console.WriteLine("Digite o nome da primeira pessoa: ");
             pessoa1.nome = Console.ReadLine();
@@ -41,17 +46,43 @@ namespace exercicio1
 
         }
 
-        static void animais()
+        static string animais()
         {
-            Console.WriteLine("Digite o nome do animal. Se vazio o animal será peixe");
-            string animal = Console.ReadLine().ToLower();
-            if (animal == "cachorro")
+            int ContCachorros = 0;
+            int ContGatos = 0;
+            int ContPeixes = 0;
+            for (int i = 0; i < 5; i++)
             {
-
+                Console.WriteLine("Digite o nome do animal. Se vazio o animal será peixe");
+                string animal = Console.ReadLine().ToLower();
+                if (animal == "cachorro")
+                {
+                    Cachorro cachorro = new Cachorro();
+                    cachorro.especie = "Canis";
+                    cachorro.reino = "Animal";
+                    cachorro.Respirar();
+                    ContCachorros++;
+                }
+                else if (animal == "gato")
+                {
+                    Gato gato = new Gato();
+                    gato.especie = "Felis";
+                    gato.reino = "Animal";
+                    gato.Respirar();
+                    ContGatos++;
+                }
+                else
+                {
+                    Peixe peixe = new Peixe();
+                    peixe.especie = "Aquaticos";
+                    peixe.reino = "Animal";
+                    peixe.Respirar();
+                    ContPeixes++;
+                }
             }
+            return "Foram " + ContCachorros + "cachorros, " + ContGatos + " gatos e " + ContPeixes + " peixes.";
+
         }
-
-
     }
 }
 

@@ -2,11 +2,11 @@ using System;
 
 namespace exercicio1
 {
-    public class Gato : Animal
+    public class Peixe : Animal
     {
         public override void Respirar()
         {
-            Console.WriteLine("Gato respirando");
+            Console.WriteLine("Peixe respirando");
         }
 
     }
